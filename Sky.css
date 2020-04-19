@@ -1,0 +1,186 @@
+body{
+    margin:0px;
+}
+#h{
+    filter:blur(10px);
+    width:auto;
+}
+#grs{
+    position:absolute;
+    background-color:green;
+    filter:blur(2px);
+}
+#mnt{
+    height:0px;
+    position:absolute;
+    width:0px;
+    border-left: 70px solid transparent; 
+    border-right: 70px solid transparent; 
+    border-bottom: 150px solid;
+}
+#door{
+    border-radius:20px 20px 0px 0px;
+    position:absolute; 
+    height:25px;
+    width:15px;
+}
+#moon{
+    background-color:transparent;
+    position:absolute;
+    top:20px;
+    box-shadow:5px 10px 1px white;
+    right:20px;
+    border-radius:100px;
+}
+#sun{
+    background-color:yellow;
+    box-shadow:0px 0px 20px yellow;
+    position:absolute;
+    border-radius:100px;
+    top:20px;
+    right:20px;
+}
+.str{
+    background-color:rgb(200,200,200);
+    position:absolute;
+    border-radius:100px;
+    height:2px;
+    width:2px;
+    animation-name:wt;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes wt{
+    0%,10%{
+        box-shadow:0px 0px 10px rgb(200,200,200);
+    }
+    20%{
+        box-shadow:0px 0px 15px rgb(200,200,200);
+    }
+    30%{
+        box-shadow:0px 0px 20px rgb(200,200,200);
+    }
+    40%{
+        box-shadow:0px 0px 25px rgb(200,200,200);
+    }
+    50%,60%{
+        box-shadow:0px 0px 35px rgb(200,200,200);
+    }
+    70%{
+        box-shadow:0px 0px 20px rgb(200,200,200);
+    }
+    80%{
+        box-shadow:0px 0px 15px rgb(200,200,200);
+    }
+    90%,100%{
+        box-shadow:0px 0px 10px rgb(200,200,200);
+    }
+}
+.str1{
+    background-color:rgb(20,150,200);
+    position:absolute;
+    border-radius:100px;
+    height:3px;
+    width:3px;
+    animation-name:bl;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes bl{
+    0%,10%{
+        box-shadow:0px 0px 10px rgb(20,150,200);
+    }
+    20%{
+        box-shadow:0px 0px 15px rgb(20,150,200);
+    }
+    30%{
+        box-shadow:0px 0px 20px rgb(20,150,200);
+    }
+    40%{
+        box-shadow:0px 0px 30px rgb(20,150,200);
+    }
+    50%,60%{
+        box-shadow:0px 0px 35px rgb(20,150,200);
+    }
+    70%{
+        box-shadow:0px 0px 20px rgb(20,150,200);
+    }
+    80%{
+        box-shadow:0px 0px 15px rgb(20,150,200);
+    }
+    90%,100%{
+        box-shadow:0px 0px 5px rgb(200,200,200);
+    }
+}
+.str2{
+    background-color:rgb(10,150,150);
+    position:absolute;
+    border-radius:100px;
+    height:4px;
+    width:4px;
+    animation-name:bk;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+@keyframes bk{
+    0%,10%{
+        box-shadow:0px 0px 10px rgb(10,150,150);
+    }
+    20%{
+        box-shadow:0px 0px 15px rgb(10,150,150);
+    }
+    30%{
+        box-shadow:0px 0px 20px rgb(10,150,150);
+    }
+    40%{
+        box-shadow:0px 0px 30px rgb(10,150,150);
+    }
+    50%,60%{
+        box-shadow:0px 0px 40px rgb(10,150,150);
+    }
+    70%{
+        box-shadow:0px 0px 20px rgb(10,150,150);
+    }
+    80%{
+        box-shadow:0px 0px 15px rgb(10,150,150);
+    }
+    90%,100%{
+        box-shadow:0px 0px 10px rgb(10,150,150);
+    }
+}
+.str3{
+    background-color:rgb(100,140,190);
+    position:absolute;
+    border-radius:100px;
+    height:5px;
+    width:5px;
+    animation-name:lk;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+}
+@keyframes lk{
+    0%,10%{
+        box-shadow:0px 0px 10px rgb(100,140,190);
+    }
+    20%{
+        box-shadow:0px 0px 15px rgb(100,140,190);
+    }
+    30%{
+        box-shadow:0px 0px 20px rgb(100,140,190);
+    }
+    40%{
+        box-shadow:0px 0px 45px rgb(100,140,190);
+    }
+    50%,60%{
+        box-shadow:0px 0px 50px rgb(100,140,190);
+    }
+    70%{
+        box-shadow:0px 0px 20px rgb(100,140,190);
+    }
+    80%{
+        box-shadow:0px 0px 15px rgb(100,140,190);
+    }
+    90%,100%{
+        box-shadow:0px 0px 10px rgb(100,140,190);
+    }
+}
