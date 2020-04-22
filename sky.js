@@ -9,6 +9,7 @@ window.onload=function(){
     let h=dm.getHours();
     let m=dm.getMinutes();
     let s=dm.getSeconds();
+    console.log(h+":"+m+":"+s);
     alert("The code will display the scenary according to the time of your location\n\nLike now, the time is "+((h<10)?'0'+h:h)+":"+((m<10)?'0'+m:m)+", so the scenary will be **"+((h>=5&&h<=6)?"the Dawn scene":(h==7)?"the Mid-morn scene":(h>=8&&h<=10)?"the Morning scene":(h>=11&h<=16)?"the Mid-afternoon/afternoon scene":(h>=17&&h<=18)?"the Dusk scene":(h>=19&&h<=21)?"the Night scene":(h>=22&&h<=23||h>=0&&h<=4)?"the Mid-night scene":"")+"**\n\nEnjoy it 😉🤙\n\nIf the time changes, the scene will also change")
     if(h>=5&&h<=6){
         km.style.background="linear-gradient(180deg,black,blue,lightblue)";
